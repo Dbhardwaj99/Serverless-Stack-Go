@@ -4,6 +4,5 @@ This is a project where I built and hosted an entire serverless stack using AWS 
 
 Use this to get info from API:
 `
-  
-Divyanshs-MacBook-Air:serverless-stack divyanshbhardwaj$ curl --header "Content-Type: application/json" --request POST --data '{"id":"1","name":"John Doe","age":30}' https://xrbkhxwjr5.execute-api.eu-north-1.amazonaws.com/staging
+curl --header "Content-Type: application/json" --request POST --data '{"id":"1","name":"John Doe","age":30}' https://xrbkhxwjr5.execute-api.eu-north-1.amazonaws.com/staging
 `
